@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Convergence&family=Inder&family=Inter:slnt,wght@-10..0,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0 70px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    padding: 13px 90px;
+    background-color: #fff;
+    box-shadow: 0px 20px 46px 1px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+
+.top-header :hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-links ul li {
+    margin: 12px 20px;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #009B00;
+    transition: 0.5s;
+}
+
+.login-btn {
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    background-color: #E94339;
+    color: #fff;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    border: #E94339;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+    background-color: yellowgreen;
+    color: blue;
+}
+
+.sign-up-btn {
+    cursor: pointer;
+    background-color: #E94339;
+    color: #fff;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    margin-left: 25px;
+    border: #E94339;
+}
+
+.sign-up-btn:hover {
+    cursor: pointer;
+    background-color: #E94339;
+    scale: 1.1;
+    transition: 0.5s;
+    background-color: yellow;
+    color: blue;
+}
+
+/* hero section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+    padding-top: 5%;
+}
+
+.hero-img img {
+    width: 330px;
+    background-color: #F2EBDA;
+    border-radius: 50px;
+    margin-right: 100px;
+}
+
+.hero-section-left h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.hero-section-left p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.order-now-input input {
+    width: 90%;
+    height: 44px;
+    border-radius: 50px;
+    background-color: #F6F6F6;
+    padding: 0px 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.order-now-input {
+    position: relative;
+    margin: 29px 0px;
+}
+
+.order-now-input button {
+    cursor: pointer;
+    position: absolute;
+    left: 73.3%;
+    top: 4%;
+    background-color: #FF5331;
+    border-radius: 50px;
+    padding: 13px 15px;
+    border-color: #FF5331;
+    border: none;
+    color: #F2EBDA;
+
+}
+
+.order-btn:hover {
+    cursor: pointer;
+    background-color: #E94339;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.download-btns {
+    display: flex;
+}
+
+.download-btns button:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.app-store-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.app-store {
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* order section */
+
+.order-numbers {
+    text-align: center;
+    margin: 90px 0px 20px;
+}
+
+.order-numbers h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.order-numbers h1 span {
+    color: #FF5331;
+}
+
+.order-numbers p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #191720;
+}
+
+/* food cards */
+
+.food-cards {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.food-deals-cards {
+    display: flex;
+    margin: 140px 30px;
+}
+
+.food-deals-cards :hover {
+    cursor: pointer;
+    background-color: #F2EBDA;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FAFAFA;
+    border-radius: 28px;
+    padding: 40px;
+    margin: 0px 17px;
+    height: 95px;
+}
+
+.food-item {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 14px;
+}
+
+.card span {
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+}
+
+.delivery-card {
+    background: #FAFAFA;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 15px 20px;
+    margin-left: 7%;
+    height: 300px;
+}
+
+.delivery-card h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.free-delivery {
+    color: #009B00;
+}
+
+.bike-div {
+    margin-left: 120px;
+    justify-content: flex-end;
+    padding-top: 13px;
+}
+
+.bike-div img {
+    margin-top: 25px;
+}
+
+.delivery-card:hover {
+    cursor: pointer;
+    background-color: #F2EBDA;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+/* second food items */
+
+.para-food-item {
+    margin-top: 23px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.second-food-cards {
+    display: flex;
+}
+
+/* how to order */
+
+.second-section-card {
+    position: relative;
+}
+
+.div-for-heading {
+    font-size: 29px;
+}
+
+.location-text {
+    text-align: center;
+}
+
+.div-for-display {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.first-order {
+    text-align: center;
+
+}
+
+.choose-text {
+    text-align: center;
+}
+
+.div-for-card {
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    right: 15px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    padding: 40px;
+    width: 86px;
+    height: 110px;
+}
+
+.house-text {
+    text-align: center;
+}
+
+.div-for-card img {
+    margin-left: 15px;
+}
+
+.div-for-card:hover {
+    cursor: pointer;
+    background-color: #F2EBDA;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.top-heading {
+    position: relative;
+    margin-top: 200px;
+}
+
+.home-img {
+    width: 100%;
+    height: 590px;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.top-heading h1 {
+    position: relative;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.text-para {
+    position: absolute;
+    top: 470px;
+    left: 70px;
+    margin-right: 100px;
+    padding: 20px 22px;
+    border-radius: 9px;
+    background-color: #f7f7f7;
+}
+
+.bottom-section :hover {
+    background-color: #009B00;
+    cursor: pointer;
+}
+
+.get-btn {
+    margin: 25px 8px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #E21B70;
+    color: #f7f7f7;
+    background-color: #E21B70;
+    border: none;
+}
+
+.get-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.heading-style {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.para-style {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.para-style-two {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+
+/* footer */
+footer {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section {
+    flex: 1;
+    min-width: 200px;
+    line-height:50px;
+}
+
+footer h3 {
+    color: #FFA500;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.section a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social-media a {
+    margin: 1px 5px;
+    display: inline-block;
+}
+
+.para-1{
+   margin-top: 28px;
+}
+.para-2{
+ margin-top: 26px;
+}
+.para-3{
+ margin-top: 26px;
+}
+.contact-section{
+    margin-top: 12px;
+
+}
+.bottom-bar {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.bottom-bar p {
+    margin: 0;
+}
